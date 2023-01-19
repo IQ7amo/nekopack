@@ -1,0 +1,90 @@
+{
+  "name": "بۆتی زیرەك",
+  "description": "اللهم صلِ على محمد وآل محمد",
+  "logo": "https://telegra.ph/file/235481c524f1f15b7895b.mp4",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/vtvit/JJITM/",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "ناوی تێلەگرامت",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "ئەپ ئایدی ", 
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "ئەیپی هاشی تایبەت بەتۆ",
+      "value": ""
+    },
+    "ENV": {
+      "description": "مەیگۆڕە",
+      "value": "ANYTHING"
+    },
+    "COMMAND_HAND_LER": {
+      "description": "مەیگۆڕە",
+      "value": "."
+    },
+    "STRING_SESSION": {
+      "description": "کۆدی چوونە ژوورەوە وە تێرمۆکس ",
+      "value": ""
+    },
+    "TG_BOT_USERNAME": {
+      "description": "یوزەری بۆت دابنێ بەبێ ئەم هێمایە @",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "تۆکنی بۆت لێرە دابنێ",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "لێرە ئایپی تایبەت بەخۆت دەربکە https://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "دانانی ناو بە بچووکی واتا سمۆڵ",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "شوێنی کاتی تایبەت بە تۆ",
+      "value": "Asia/Baghdad",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "کۆدی سەرچاوەکە مەیگۆڕە هەرگیز",
+      "value": "vtvit",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
