@@ -1,1 +1,1 @@
-worker: bash IQQQ1
+worker: bash start
