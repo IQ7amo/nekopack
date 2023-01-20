@@ -1,7 +1,7 @@
 {
-  "name": "بۆتی زیرەك",
+  "name": "سەرچاوەی بۆتی زیرەك",
   "description": "اللهم صلِ على محمد وآل محمد",
-  "logo": "https://telegra.ph/file/235481c524f1f15b7895b.mp4",
+  "logo": "https://telegra.ph/file/dca610cb8795710700d2e.jpg",
   "keywords": [
     "plugin",
     "modular",
@@ -12,55 +12,36 @@
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "ناوی تێلەگرامت",
+      "description": "هنا ضع اسم التلجرام الخاص بك",
       "value": ""
     },
     "APP_ID": {
-      "description": "ئەپ ئایدی ", 
+      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
       "value": ""
     },
     "API_HASH": {
-      "description": "ئەیپی هاشی تایبەت بەتۆ",
+      "description": "هنا ضع الايبي هاش الخاص بك",
       "value": ""
     },
     "ENV": {
-      "description": "مەیگۆڕە",
+      "description": "لا تغير هذه القيمه",
       "value": "ANYTHING"
     },
-    "COMMAND_HAND_LER": {
-      "description": "مەیگۆڕە",
-      "value": "."
-    },
     "STRING_SESSION": {
-      "description": "کۆدی چوونە ژوورەوە وە تێرمۆکس ",
+      "description": "هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك",
       "value": ""
     },
     "TG_BOT_USERNAME": {
-      "description": "یوزەری بۆت دابنێ بەبێ ئەم هێمایە @",
+      "description": "هنا ضع معرف بوتك بدون @",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "تۆکنی بۆت لێرە دابنێ",
+      "description": "هنا ضع توكن بوتك الذي صنعته",
       "value": ""
     },
-    "HEROKU_API_KEY": {
-      "description": "لێرە ئایپی تایبەت بەخۆت دەربکە https://dashboard.heroku.com/account",
-      "value": "",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "دانانی ناو بە بچووکی واتا سمۆڵ",
-      "value": "",
-      "required": false
-    },
     "TZ": {
-      "description": "شوێنی کاتی تایبەت بە تۆ",
+      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
       "value": "Asia/Baghdad",
-      "required": false
-    },
-    "UPSTREAM_REPO": {
-      "description": "کۆدی سەرچاوەکە مەیگۆڕە هەرگیز",
-      "value": "vtvit",
       "required": false
     }
   },
