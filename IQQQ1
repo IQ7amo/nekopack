@@ -4,7 +4,7 @@
 _get_ziplink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "vtvit" ]]
+    if [[ $UPSTREAM_REPO == "iquser" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL2plcHRob25pcS9qZXB0aG9uL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
@@ -24,7 +24,7 @@ _get_repolink () {
     local regex
     local rlink
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "vtvit" ]]
+    if [[ $UPSTREAM_REPO == "iquser" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL2plcHRob25pcS9qZXB0aG9uLmdpdA==" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
@@ -68,7 +68,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _set_bot () {
     local zippath
-    zippath="iquser.zip"
+    zippath="IQQQ1.zip"
     echo "کۆدەکانی سەرچاوکە دادەبزێت .. "
     wget -q $(_get_ziplink) -O "$zippath"
     echo " فڕێدانی داتا "
