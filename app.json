@@ -1,7 +1,7 @@
 {
   "name": "سەرچاوەی بۆتی زیرەك",
   "description": "اللهم صلِ على محمد وآل محمد",
-  "logo": "https://telegra.ph/file/dca610cb8795710700d2e.jpg",
+  "logo": "https://telegra.ph/file/480b110495d8fc09a87e9.jpg",
   "keywords": [
     "plugin",
     "modular",
@@ -38,17 +38,6 @@
     "TG_BOT_TOKEN": {
       "description": "هنا ضع توكن بوتك الذي صنعته",
       "value": ""
-    },
-    "HEROKU_API_KEY": {
-      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
-      "value": "",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "YOUR app name ",
-      "value": "",
-      "required": false
-
     },
     "TZ": {
       "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
