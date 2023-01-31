@@ -1,1 +1,1 @@
-worker: bash AIZEN1
+worker: bash start
