@@ -1,46 +1,56 @@
 {
-  "name": "سەرچاوەی بۆتی زیرەك",
-  "description": "اللهم صلِ على محمد وآل محمد",
-  "logo": "https://telegra.ph/file/480b110495d8fc09a87e9.jpg",
+  "name": "𝗭𝗧𝗵𝗼𝗻",
+  "description": "〔 سـورس زدثــون 𝗭𝗲𝗱𝗧𝗵𝗼𝗻 𓅛 〕التحـديث الجديـد افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › مبنـي ع آخـر اصـدار مـن لغـة بايثـون〔 Python 3.10.6 〕- مطـور السـورس : زلـزال الهيبـه ",
+  "logo": "https://telegra.ph/file/c91c09fb188f0f281e628.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/vtvit/JJITM/",
+  "repository": "https://github.com/vtvit/iquser",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "هنا ضع اسم التلجرام الخاص بك",
+      "description": "اســم حســـابك التلـي",
       "value": ""
     },
     "APP_ID": {
-      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
+      "description": "كـود ايبي ايـدي〔 App id 〕الصغيـر", 
       "value": ""
     },
     "API_HASH": {
-      "description": "هنا ضع الايبي هاش الخاص بك",
+      "description": "كـود ايبي هـاش〔 Api hash 〕..",
       "value": ""
     },
     "ENV": {
-      "description": "لا تغير هذه القيمه",
+      "description": "لا تغيــرهـــا",
       "value": "ANYTHING"
     },
-    "STRING_SESSION": {
-      "description": "هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك",
-      "value": ""
+    "COMMAND_HAND_LER": {
+      "description": "لا تغيــرهـــا",
+      "value": "."
     },
-    "TG_BOT_USERNAME": {
-      "description": "هنا ضع معرف بوتك بدون @",
+    "STRING_SESSION": {
+      "description": "كـــود تيـــرمكـــس - الكـود الكبيـر مـن حـافظـة حسـابـك",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "هنا ضع توكن بوتك الذي صنعته",
+      "description": "تـــوكـــن البـــوت - من بـوت فـاذر〔 @Botfather 〕..",
       "value": ""
     },
+    "HEROKU_API_KEY": {
+      "description": "كـــود مفتـــاح هيروكـــو - تروح ع الرابـط » https://dashboard.heroku.com/account  ع آخـر خانـه وتنسـخ الكـود لهنـا",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "ســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف انكلـش صغيـره",
+      "value": "",
+      "required": false
+    },
     "TZ": {
-      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
+      "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
       "value": "Asia/Baghdad",
       "required": false
     }
@@ -60,12 +70,13 @@
   },{
     "url": "https://github.com/riganf/heroku-buildpack-p7zip"
   },{
-    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
-  },{
     "url": "https://github.com/heroku/heroku-buildpack-apt.git"
   },{
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
   },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
     "url": "heroku/python"
-  }]
+  }],
+  "stack": "heroku-22"
 }
